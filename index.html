@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <!-- tailwind CSS--> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main class="flex justify-center items-center mb-40">
+    <div class="colorCard w-64 md:w-full md:h-72 my-10 md:mt-40 mx-auto md:max-w-3xl max-w-md rounded-md shadow-md overflow-hidden md:grid md:grid-cols-2 shadow-lg">
+    <section class="md:shrink-0 mb-2 md:order-last"> <!--order-last pone la imagen a la derecha-->
+      <div class="colorImg rounded-xl">
+        <img class="md:h-72 opacity-50" src="images/image-header-mobile.jpg" alt="Imagen de gente en la oficina">
+      </div>
+    </section>
+
+    <section class="py-6 px-5 md:py-10 md:pl-10 md:pr-16 pb-8 text-xl text-white text-center md:text-left">
+      <h1 class="font-bold pb-3">Get <span>insights</span> that help your business grow.</h1>
+      <p class="text-xs leading-5 pb-4">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      <div class="md:flex md:pt-4">
+        <div class="pb-4 md:pr-4">
+          <h2 class="text-white font-semibold text-xl py-1">10k+</h2>
+          <p class="text-xs">COMPANIES</p>
+        </div>
+        <div class="pb-4 md:pr-4">
+          <h2 class="text-white font-semibold text-xl py-1">314 </h2>
+          <p class="text-xs">TEMPLATES</p>
+        </div>
+        <div>
+          <h2 class="text-white font-semibold text-xl py-1">12m+</h2>
+          <p class="text-xs">QUERIES</p>
+        </div>
+      </div>
+      </section>
+  </div>
+  </main>
+
+
+  <div class="text-center text-sm text-white">
+    Challenge by <a class="color-a" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="color-a" href="#" target="_blank">Victoria Azola</a>.
+  </div>
+</body>
+</html>
