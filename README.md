@@ -5,4 +5,4 @@ Este proyecto fue realizado en base al desafío de Frontend Mentor que puedes en
 https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
 Aqui pueder ver el producto final:
-https://cardarticle-tailwindcss.netlify.app/
+https://statscard-tailwindcss.netlify.app/
