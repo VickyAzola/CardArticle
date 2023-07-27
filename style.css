@@ -21,8 +21,13 @@ body {
     background: var(--Darkdesaturatedblue);
 }
 
-.colorImg {
-    background: var(--Softviolet2);
+figure {
+    background: var(--Softviolet);  
+}
+
+.colorImg { 
+    mix-blend-mode: multiply;
+    opacity: 0.75;
 }
 
 span, 
