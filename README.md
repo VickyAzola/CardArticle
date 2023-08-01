@@ -6,3 +6,5 @@ https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
 Aqui pueder ver el producto final:
 https://statscard-tailwindcss.netlify.app/
+
+![desktop-preview](https://github.com/VickyAzola/CardStats/assets/116470398/a8a20f10-8fdb-4390-aa2b-054ea37a8729)
